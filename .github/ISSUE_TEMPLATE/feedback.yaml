@@ -1,0 +1,63 @@
+name: Feedback
+description: Share general feedback about your experience with one of our apps
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing your feedback! We value your input to improve our apps. Please provide details about your experience.
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: Which app is this feedback related to? (Leave blank if general)
+      placeholder: e.g., MyApp
+    validations:
+      required: false
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using the app on?
+      options:
+        - iOS
+        - Android
+        - Both
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback Description
+      description: Share your thoughts about the app. What do you like, dislike, or find noteworthy?
+      placeholder: e.g., The app's interface is intuitive, but I found the loading times a bit slow.
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Overall Rating
+      description: How would you rate your overall experience with the app?
+      options:
+        - Very Satisfied
+        - Satisfied
+        - Neutral
+        - Dissatisfied
+        - Very Dissatisfied
+      default: 2
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional details, such as specific features you enjoyed or issues encountered.
+      placeholder: e.g., The calendar feature is great, but I’d love more customization options.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        For further discussion, you can also email us at [support@oppahansi.de](mailto:support@oppahansi.de).

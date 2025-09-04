@@ -1,0 +1,64 @@
+name: Support Request
+description: Request help or troubleshooting for one of our apps
+title: "[Support] "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reaching out! Please provide details about the issue you're facing, and we'll assist you as soon as possible.
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: Which app are you seeking support for?
+      placeholder: e.g., MyApp
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version
+      description: What is the version number of the app? (Check in app settings or store listing)
+      placeholder: e.g., 1.2.3
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using the app on?
+      options:
+        - iOS
+        - Android
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: Describe the issue you're facing in detail.
+      placeholder: e.g., I can't log in to my account after updating the app.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps Taken
+      description: What steps have you already tried to resolve the issue?
+      placeholder: e.g., I tried restarting the app and clearing the cache.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional details, such as device model, OS version, or screenshots.
+      placeholder: e.g., Samsung Galaxy S21, Android 13, screenshot attached
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        For urgent assistance, you can also email us at [support@oppahansi.de](mailto:support@oppahansi.de).

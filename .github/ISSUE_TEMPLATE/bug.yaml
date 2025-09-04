@@ -1,0 +1,68 @@
+name: Bug Report
+description: Report a bug or technical issue with one of our apps
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please provide as much detail as possible to help us resolve the issue quickly.
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: Which app is this bug related to?
+      placeholder: e.g., MyApp
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App Version
+      description: What is the version number of the app? (Check in app settings or store listing)
+      placeholder: e.g., 1.2.3
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you using the app on?
+      options:
+        - iOS
+        - Android
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the bug in detail. What happened, and what did you expect to happen?
+      placeholder: e.g., When I tap the login button, the app crashes.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the steps to reproduce the issue.
+      placeholder: |
+        1. Open the app
+        2. Navigate to the settings screen
+        3. Tap the "Save" button
+        4. Observe the crash
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional details, such as device model, OS version, or screenshots.
+      placeholder: e.g., iPhone 12, iOS 18.1, screenshot attached
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        For further assistance, you can also email us at [support@oppahansi.de](mailto:support@oppahansi.de).

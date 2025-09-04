@@ -1,0 +1,45 @@
+name: Enhancement Request
+description: Propose an improvement to an existing feature in one of our apps
+title: "[Enhancement] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an enhancement! Please provide details about how we can improve an existing feature.
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: Which app is this enhancement related to?
+      placeholder: e.g., MyApp
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Enhancement Description
+      description: Describe the improvement you'd like to see for an existing feature.
+      placeholder: e.g., Make the search bar more responsive by adding autocomplete suggestions.
+    validations:
+      required: true
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: Explain how the feature currently works.
+      placeholder: e.g., The search bar requires a full query before showing results.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional details, such as examples or mockups.
+      placeholder: e.g., Autocomplete like in AppY would be great.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        For further discussion, you can also email us at [support@oppahansi.de](mailto:support@oppahansi.de).

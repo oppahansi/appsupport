@@ -1,0 +1,45 @@
+name: Suggestion
+description: Share a general idea or recommendation for our apps
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing your suggestion! Please provide details about your idea or recommendation.
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: Which app is this suggestion related to? (Leave blank if general)
+      placeholder: e.g., MyApp
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Suggestion Description
+      description: Describe your suggestion in detail.
+      placeholder: e.g., Add a community forum feature to connect users.
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Benefit
+      description: Explain how this suggestion would benefit users or the app.
+      placeholder: e.g., A community forum would increase user engagement.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional details, such as examples from other apps or mockups.
+      placeholder: e.g., Similar to the forum in AppZ.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        For further discussion, you can also email us at [support@oppahansi.de](mailto:support@oppahansi.de).

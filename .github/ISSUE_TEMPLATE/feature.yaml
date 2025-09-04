@@ -1,0 +1,45 @@
+name: Feature Request
+description: Suggest a new feature for one of our apps
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature! Please provide details about the feature you'd like to see.
+  - type: input
+    id: app-name
+    attributes:
+      label: App Name
+      description: Which app would this feature be added to?
+      placeholder: e.g., MyApp
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe the feature in detail. What should it do, and how would it benefit users?
+      placeholder: e.g., Add a dark mode toggle to improve usability at night.
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Explain how and why users would use this feature.
+      placeholder: e.g., Users can toggle dark mode to reduce eye strain in low-light conditions.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional details, such as examples from other apps or mockups.
+      placeholder: e.g., Similar to the dark mode in AppX.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        For further discussion, you can also email us at [support@oppahansi.de](mailto:support@oppahansi.de).
