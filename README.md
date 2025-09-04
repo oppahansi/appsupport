@@ -21,6 +21,7 @@ We value your feedback! To ensure smooth communication, please use the following
 - **Enhancement**: Propose improvements to existing features.
 - **Support**: Request help with app usage or troubleshooting.
 - **Suggestion**: Share general ideas or recommendations for our apps.
+- **Feedback**: Share your thoughts about the apps.
 
 To create an issue:
 1. Navigate to the [Issues tab](https://github.com/your-username/appsupport/issues).
