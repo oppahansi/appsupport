@@ -9,10 +9,7 @@ This repository is designed to:
 - Centralize support resources for a seamless user experience.
 
 ## Contact Us
-For any questions, issues, or feedback, please reach out to us at:
-- **Email**: [support@oppahansi.de](mailto:support@oppahansi.de)
-
-You can also use the [GitHub Issues](#how-to-contribute) section of this repository to submit bug reports, feature requests, enhancements, support queries, or suggestions.
+Please use the [GitHub Issues](#how-to-contribute) section of this repository to submit bug reports, feature requests, enhancements, support queries, or suggestions.
 
 ## How to Contribute
 We value your feedback! To ensure smooth communication, please use the following GitHub issue templates when submitting feedback:
