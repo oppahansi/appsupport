@@ -1,10 +1,10 @@
-# Privacy Policy for “Legacy Talent Calculator”
+# Privacy Policy for “LTC Pro”
 
 Effective date: 2025-01-01  
 Contact: support@oppahansi.de
 
 1) Overview
-- “Legacy Talent Calculator” is an offline-first app that runs entirely on-device.
+- “LTC Pro” is an offline-first app that runs entirely on-device.
 - No accounts, no cloud, no online services.
 - No analytics, telemetry, crash reporting, tracking, or ads.
 - All data is stored locally on your device and only leaves your device if you explicitly export it.
