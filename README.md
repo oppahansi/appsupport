@@ -1,5 +1,7 @@
 # AppSupport
 
+[![Discord](https://img.shields.io/static/v1?logo=discord&label=discord&message=Join&color=blue)](https://discord.gg/ncKmDEArqg)
+
 Welcome to the **AppSupport** repository! This is the central hub for support resources related to our Flutter-based mobile applications available on iOS and the App Store. Here, you can find privacy policies, terms of service, and other essential information for our app users. This repository also serves as the primary point of contact for user support, feedback, and suggestions.
 
 ## Purpose
